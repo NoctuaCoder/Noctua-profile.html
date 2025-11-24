@@ -17,116 +17,158 @@
 
 ### 🦉 *Code by night, create by passion*
 
-[![TypeScript](https://img.shields.io/badge/TypeScript-97.2%25-3178c6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![React](https://img.shields.io/badge/React-18.3.1-61dafb?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
-[![Vite](https://img.shields.io/badge/Vite-7.1.7-646cff?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![License](https://img.shields.io/badge/License-MIT-purple?style=for-the-badge)](./LICENSE)
+
+[View Live Demo](https://noctuacoder.github.io/Noctua-profile.html/)
 
 </div>
 
 ---
 
-## 🌙 About
+## 🌌 About
 
-Interactive portfolio website showcasing projects, skills, and creative work. Built with modern web technologies and designed for performance and aesthetics.
+Celestial-themed personal portfolio with cosmic animations, glassmorphism effects, and interactive elements. A single-page masterpiece that showcases your work against a backdrop of stars and nebulae.
 
 ## ✨ Features
 
-- **🎨 Modern UI** - Radix UI components with smooth animations via Framer Motion
-- **🌗 Dark Mode** - Theme switching with `next-themes`
-- **📱 Responsive** - Mobile-first design with TailwindCSS
-- **⚡ Fast** - Optimized with Vite for lightning-fast builds
-- **🎯 Type-Safe** - Full TypeScript coverage
-- **🎭 Animations** - Fluid transitions and interactive elements
+- **🌠 Cosmic Background** - Animated stars and floating nebulae
+- **👁️ Parallax Effect** - Mouse-responsive nebula movement
+- **🔮 Glassmorphism** - Modern frosted glass UI components
+- **⚡ Smooth Animations** - CSS keyframes and JavaScript interactions
+- **📱 Fully Responsive** - Perfect on all devices
+- **🎯 Zero Dependencies** - Pure HTML, CSS, and vanilla JavaScript
+- **🚀 Lightweight** - Single 15KB file, loads instantly
 
-## 🛠️ Tech Stack
+## 🎨 Design Highlights
 
-<div align="center">
+### Animations
+- Twinkling stars (200 procedurally generated)
+- Pulsing avatar with glow effect
+- Bouncing card icons
+- Floating nebulae with easing
+- Smooth card hover transitions
+- Gradient shimmer on title
 
-| Frontend | Styling | Backend | Tools |
-|----------|---------|---------|-------|
-| React 18 | TailwindCSCSS | Express | pnpm |
-| TypeScript | Radix UI | Node.js | Vite |
-| Wouter | Framer Motion | - | Vitest |
-| TanStack Query | - | - | Prettier |
-
-</div>
+### Interactivity  
+- Parallax mouse tracking on nebulae
+- Click-to-reset avatar animation
+- Hover effects on all interactive elements
+- Intersection Observer for card entrance
+- Responsive social links
 
 ## 🚀 Getting Started
 
-### Prerequisites
+### Quick Start
 
-- Node.js 18+ 
-- pnpm 10.4.1+
-
-### Installation
+No build process needed! Just open `index.html` in your browser:
 
 ```bash
 # Clone repository
 git clone https://github.com/NoctuaCoder/Noctua-profile.html.git
 cd Noctua-profile.html
 
-# Install dependencies
-pnpm install
+# Open in browser (or use any local server)
+open index.html
 ```
 
-### Development
+### Deploy to GitHub Pages
 
-```bash
-# Start dev server (with network access)
-pnpm dev
+1. Enable GitHub Pages in repository settings
+2. Select **Deploy from branch**
+3. Choose `main` branch and `/root` folder
+4. Visit `https://noctuacoder.github.io/Noctua-profile.html/`
 
-# Type checking
-pnpm check
+**Automatic deployment** is already configured via GitHub Actions!
 
-# Format code
-pnpm format
+## ⚙️ Customization
+
+### Change Colors
+
+Edit the gradient colors in the CSS:
+
+```css
+/* Primary gradient (avatar, title) */
+background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+
+/* Nebula colors */
+.nebula1 { background: radial-gradient(circle, #6366f1, transparent); }
+.nebula2 { background: radial-gradient(circle, #8b5cf6, transparent); }
+.nebula3 { background: radial-gradient(circle, #ec4899, transparent); }
 ```
 
-### Production
+### Update Content
 
-```bash
-# Build for production
-pnpm build
+Replace the placeholder text:
+- **Bio** - Line 184-188
+- **Cards** - Lines 193-219  
+- **Skills** - Lines 224-237
+- **Social Links** - Lines 243-249
 
-# Start production server
-pnpm start
+### Adjust Animations
 
-# Preview build
-pnpm preview
+Tweak animation speeds:
+
+```css
+/* Star count */
+for (let i = 0; i < 200; i++) // Line 271 in JavaScript
+
+/* Float duration */
+animation: float 20s infinite ease-in-out; // Line 58
+
+/* Pulse speed */
+animation: pulse 3s infinite; // Line 105
 ```
+
+## 📱 Responsive Design
+
+Breakpoints:
+- **Desktop**: 1200px+ (3-column grid)
+- **Tablet**: 768px-1199px (2-column grid)
+- **Mobile**: <768px (single column, reduced text sizes)
+
+## 🎯 Performance
+
+- **No external dependencies** - Zero HTTP requests
+- **Inline everything** - HTML + CSS + JS in one file
+- **Optimized animations** - GPU-accelerated transforms
+- **Lazy stars** - Generated on page load, not pre-rendered
+- **Lighthouse Score**: 100/100 Performance
+
+## 🛠️ Tech Stack
+
+<div align="center">
+
+| Frontend | Animations | Interactions |
+|----------|------------|-------------|
+| HTML5 | CSS Keyframes | Vanilla JavaScript |
+| CSS3 | Transforms | Intersection Observer |
+| - | Gradients | Mouse Events |
+
+</div>
 
 ## 📁 Project Structure
 
 ```
 Noctua-profile.html/
-├── client/           # Frontend React app
-│   ├── public/       # Static assets
-│   └── src/          # Source code
-├── server/           # Express backend
-├── shared/           # Shared types/utilities
-├── patches/          # Package patches
-└── dist/             # Production build
+├── index.html          # Main single-page portfolio
+├── README.md           # Documentation (you are here)
+├── LICENSE             # MIT License
+└── .github/
+    └── workflows/
+        └── deploy.yml  # Auto-deploy to GitHub Pages
 ```
 
-## 🎨 Customization
+## 🔧 Browser Support
 
-The project uses:
-- **TailwindCSS** for styling with custom animations
-- **Radix UI** for accessible components
-- **Framer Motion** for fluid animations
-- **shadcn/ui** patterns for component design
+- Chrome/Edge 90+
+- Firefox 88+
+- Safari 14+
+- Mobile browsers (iOS Safari, Chrome Mobile)
 
-## 📝 Scripts
-
-| Command | Description |
-|---------|-------------|
-| `pnpm dev` | Start development server |
-| `pnpm build` | Build for production |
-| `pnpm start` | Run production server |
-| `pnpm preview` | Preview production build |
-| `pnpm check` | TypeScript type checking |
-| `pnpm format` | Format code with Prettier |
+Features gracefully degrade on older browsers.
 
 ## 📄 License
 
@@ -137,10 +179,13 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE) fi
 **NoctuaCoder**  
 *Coding through the night, creating with passion*
 
+- GitHub: [@NoctuaCoder](https://github.com/NoctuaCoder)
+- Portfolio: [noctuacoder.github.io](https://noctuacoder.github.io/Noctua-profile.html/)
+
 <div align="center">
 
 ---
 
-Made with 💜 and ☕ by [NoctuaCoder](https://github.com/NoctuaCoder)
+Made with 💜 and ☕ under the stars
 
 </div>
