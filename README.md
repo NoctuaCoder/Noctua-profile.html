@@ -22,7 +22,7 @@
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![License](https://img.shields.io/badge/License-MIT-purple?style=for-the-badge)](./LICENSE)
 
-[View Live Demo](https://noctuacoder.github.io/Noctua-profile.html/)
+[[View Live Demo](https://noctuacoder.github.io/Noctua-profile.html/)](https://noctuacoder.github.io/Noctua-profile.html/)
 
 </div>
 
