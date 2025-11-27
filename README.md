@@ -22,7 +22,7 @@
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![License](https://img.shields.io/badge/License-MIT-purple?style=for-the-badge)](./LICENSE)
 
-[[View Live Demo](https://noctuacoder.github.io/Noctua-profile.html/)](https://noctuacoder.github.io/Noctua-profile.html/)
+[[View Live Demo](https://noctuacoder.github.io/NoctuaCoder/portfolio.html)](https://noctuacoder.github.io/NoctuaCoder/portfolio.html)
 
 </div>
 
@@ -180,7 +180,7 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE) fi
 *Coding through the night, creating with passion*
 
 - GitHub: [@NoctuaCoder](https://github.com/NoctuaCoder)
-- Portfolio: [noctuacoder.github.io](https://noctuacoder.github.io/Noctua-profile.html/)
+- Portfolio: [noctuacoder.github.io](https://noctuacoder.github.io/NoctuaCoder/portfolio.html)
 
 <div align="center">
 
